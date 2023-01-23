@@ -31,5 +31,6 @@ def download():
     t.write('%s\%s.torrent' % (dlpath, msg))
     return render_template("download.html", name=msg)
 
+
 if __name__ == '__main__':
     app.run(port=4242)
